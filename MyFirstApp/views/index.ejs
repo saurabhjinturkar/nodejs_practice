@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>*You can try operating on floating point numbers..</p>
+    <div>
+    	<form action="calculate" method="post"> 
+    	<input type = "text" name = "number1" />
+    	<input type = "text" name = "number2" />
+    	<input type = "Submit" name = "operation" value="addition" />
+    	<input type = "Submit" name = "operation" value="subtraction" />
+    	<input type = "Submit" name = "operation" value="multiplication" />
+    	<input type = "Submit" name = "operation" value="division" />
+    	</form>
+    	<h1><%= result %>
+    </div>
+  </body>
+</html>
