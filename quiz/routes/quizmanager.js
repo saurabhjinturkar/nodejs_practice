@@ -25,7 +25,7 @@ var setupQuiz = function setupQuiz() {
 							console.log(rows[i]);
 							var row = rows[i];
 							var question1 = new questionClass.Question(
-									row['question'], row['id'],
+									row['question'], row['id'],+
 									row['topic'], row['difficulty'],
 									row['correct_answer']);
 						}
